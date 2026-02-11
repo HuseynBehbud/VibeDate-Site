@@ -1,0 +1,145 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    <header class="header">
+        <div class="header__container">
+            <div class="logo">
+                <a href="/"><img src="~/assets/image/Apple-Touch-Icon.png" alt="Logo Icon" class="logo-icon"></a>
+                <a href="/"><span class="logo-text">VibeDate</span></a>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav class="nav">
+                <a href="/" class="nav__link">Home</a>
+                <a href="/About/Index" class="nav__link">About</a>
+                <a href="/Blog/Index" class="nav__link">Blog</a>
+                <a href="/Plan/Index" class="nav__link nav__link--active">Get Planning</a>
+                <a href="/Log/Index" class="nav__link nav__link--outline">Log In</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="page-banner-join">
+            <div class="overlay"></div>
+            <h1>Join for Free!</h1>
+        </section>
+
+        <section class="free-membership">
+            <div class="container">
+
+                <h2 class="main-title">What is a 'FREE' membership?</h2>
+
+                <div class="features-grid">
+
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <div class="text-content">
+                            <h3>Forever free</h3>
+                            <p>
+                                We will never charge you for our mailing list, nor we will try and market ads to you. We value
+                                your trust in us.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="text-content">
+                            <h3>Weekly email update</h3>
+                            <p>
+                                A weekly email with cool things happening around town. Only the best for you to take on dates.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </div>
+                        <div class="text-content">
+                            <h3>Pre-planned dates</h3>
+                            <p>
+                                Choose from a range of date plans to experience, from proven providers who want to make your date
+                                memorable.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="waiting-section">
+            <div class="container">
+                <h2>So what are you waiting for?</h2>
+                <p>Sign up for your <strong>Free</strong> VibeDate account today!</p>
+            </div>
+        </section>
+        <section class="signup-form-section">
+            <div class="container">
+
+                <form class="signup-form">
+
+                    <div class="price-label">Price: Free</div>
+
+                    <div class="form-group">
+                        <label for="firstname">First Name:*</label>
+                        <input type="text" id="firstname" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastname">Last Name:*</label>
+                        <input type="text" id="lastname" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="location">Location:*</label>
+                        <input type="text" id="location" class="form-control" value="Melbourne" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:*</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password:*</label>
+                        <input type="password" id="password" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="confirm-password">Password Confirmation:*</label>
+                        <input type="password" id="confirm-password" class="form-control" required>
+                    </div>
+
+                    <div class="password-strength-wrapper">
+                        <div class="strength-box">Password Strength</div>
+                        <span class="strength-text">Password must be "Medium" or stronger</span>
+                    </div>
+
+                    <button type="submit" class="btn-signup">Sign Up</button>
+
+                </form>
+
+            </div>
+        </section>
+        <section class="offerings-section">
+            <div class="container">
+
+                <h2>Interested in VibeDate's other offerings?</h2>
+
+                <div class="offerings-buttons">
+                <a href="/Pay/Index" class="btn-offering">VibeDate Member</a>
+                <a href="/Join/Index" class="btn-offering">Executive - COMING SOON!</a>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+  

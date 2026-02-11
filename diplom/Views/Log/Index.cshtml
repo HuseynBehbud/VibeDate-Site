@@ -1,0 +1,74 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    <div class="login-bg-image"></div>
+    <header class="header">
+        <div class="header__container">
+            <div class="logo">
+                <a href="/"><img src="~/assets/image/Apple-Touch-Icon.png" alt="Logo Icon" class="logo-icon"></a>
+                <a href="/"><span class="logo-text">VibeDate</span></a>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav class="nav">
+                <a href="/" class="nav__link">Home</a>
+                <a href="/About/Index" class="nav__link">About</a>
+                <a href="/Blog/Index" class="nav__link">Blog</a>
+                <a href="/Plan/Index" class="nav__link">Get Planning</a>
+                <a href="/Log/Index" class="nav__link  nav__link--active">Log In</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <section class="login-wrapper">
+            <div class="container">
+
+
+                <h2 class="login-title">Log in to start planning your next awesome date</h2>
+                <div id="error-box" class="error-box" style="display: none;"></div>
+                <form class="login-form">
+
+
+                    <div class="form-group">
+                        <label for="username">Username or E-mail</label>
+                        <input type="text" id="username" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" class="form-control">
+                    </div>
+
+                    <div class="form-check">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember Me</label>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Log In</button>
+
+                </form>
+
+
+            <a href="/ForgotPass/Index" class="forgot-pass">Forgot Password</a>
+
+            </div>
+        </section>
+        <section class="join-section">
+            <div class="container">
+
+                <h2>Not yet a member?</h2>
+                <p>Create your free account today</p>
+
+                <a href="#" class="btn-join">
+                    <span class="icon-box">
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+                    <span class="text-box">Join now</span>
+                </a>
+
+            </div>
+        </section>
+    </main>
+   

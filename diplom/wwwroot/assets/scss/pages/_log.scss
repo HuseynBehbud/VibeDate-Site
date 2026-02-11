@@ -1,0 +1,207 @@
+$color-primary: #be2e63;
+$color-text: #555;
+$font-main: 'Open Sans', sans-serif;
+
+.login-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background-image: url("/assets/image/home_app_subheader.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.login-wrapper {
+    position: relative;
+    z-index: 5; 
+    margin-top: 150px;
+    padding-bottom: 80px;
+
+    .container {
+        background-color: #fff; 
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .login-title {
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: 300;
+        font-size: 1.8rem;
+        color: #444;
+        font-family: $font-main;
+    }
+           .error-box {
+               background-color: #ffcccc;
+               border: 1px solid #ff4d4d;
+               color: #555;
+               padding: 15px;
+               margin-bottom: 20px;
+               text-align: center;
+               width: 100%;
+               font-size: 14px;
+               border-radius: 3px;
+               line-height: 1.6;
+           }
+    
+           .error-box strong {
+               font-weight: bold;
+               color: #333;
+           }
+    .login-form {
+        text-align: left;
+        font-family: $font-main;
+
+        .form-group {
+            margin-bottom: 25px;
+
+            label {
+                display: block;
+                font-weight: 700;
+                font-size: 0.9rem;
+                color: #666;
+                margin-bottom: 8px;
+            }
+
+            .form-control {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ddd;
+                border-radius: 3px;
+                font-size: 1rem;
+                outline: none;
+
+                &:focus {
+                    border-color: $color-primary;
+                }
+            }
+        }
+
+        .form-check {
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            label {
+                font-size: 0.9rem;
+                color: #555;
+                font-weight: 400;
+                cursor: pointer;
+            }
+
+            input {
+                cursor: pointer;
+            }
+        }
+
+        .btn-submit {
+            background-color: $color-primary;
+            color: #fff;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.3s;
+            display: inline-block;
+
+            &:hover {
+                background-color: darken($color-primary, 10%);
+            }
+        }
+    }
+
+    .forgot-pass {
+        display: block;
+        margin-top: 30px;
+        color: $color-primary;
+        text-decoration: none;
+        font-size: 0.95rem;
+        text-align: center;
+        font-family: $font-main;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+$color-primary: #be2e63; 
+$color-white: #ffffff;
+$font-main: 'Open Sans', sans-serif;
+
+.join-section {
+    background-color: $color-primary; 
+    padding: 80px 0;
+    text-align: center;
+    color: $color-white;
+    font-family: $font-main;
+
+    h2 {
+        font-size: 2.2rem; 
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1.5rem; 
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+
+   
+    .btn-join {
+        display: inline-flex; 
+        align-items: stretch; 
+        background-color: $color-white;
+        text-decoration: none;
+        border-radius: 5px; 
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+        transition: transform 0.3s ease;
+
+       
+        .icon-box {
+            background-color: #e6e6e6; 
+            color: $color-primary; 
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
+        
+        .text-box {
+            background-color: $color-white; 
+            color: $color-primary; 
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .join-section {
+        padding: 50px 20px;
+
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+}

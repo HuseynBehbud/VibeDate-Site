@@ -1,0 +1,239 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Member-VibeDate</title>
+    <link rel="icon" type="image/png" href="~/assets/image/Apple-Touch-Icon.png">
+
+    <link rel="apple-touch-icon" href="~/assets/image/Apple-Touch-Icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Montserrat:wght@300;400&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/assets/css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="logo">
+                <a asp-controller="Home" asp-action="Index"><img src="~/assets/image/Apple-Touch-Icon.png" alt="Logo Icon" class="logo-icon"></a>
+                <a asp-controller="Home" asp-action="Index"><span class="logo-text">VibeDate</span></a>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav class="nav">
+                <a asp-controller="Home" asp-action="Index" class="nav__link ">Home</a>
+                <a asp-controller="Home" asp-action="About" class="nav__link">About</a>
+                <a asp-controller="Home" asp-action="Blog" class="nav__link">Blog</a>
+                <a asp-controller="Home" asp-action="Plan" class="nav__link nav__link--active">Get Planning</a>
+                <a asp-controller="Home" asp-action="Log" class="nav__link nav__link--outline">Log In</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="page-banner-member">
+            <div class="overlay"></div>
+            <h1>Become a Member</h1>
+        </section>
+
+        <section class="member-benefits">
+            <div class="container">
+
+                <div class="benefits-grid">
+
+                    <div class="benefit-item">
+                        <div class="img-wrapper">
+                            <img src="~/assets/image/dateplan1.jpg" alt="Newsletter">
+                        </div>
+                        <h3>Personalised Newsletter</h3>
+                        <p>
+                            Receive a weekly update of events that interest you. We tailor make the newsletter for your dating
+                            life, based on your personalities.
+                        </p>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="img-wrapper">
+                            <img src="~/assets/image/dateplan2.jpg" alt="Date Planners">
+                        </div>
+                        <h3>Real Date Planners</h3>
+                        <p>
+                            Planning an anniversary? Or maybe just date night? Members can speak directly to our Date Planners
+                            and have an experience tailor made. We are your personal date concierge.
+                        </p>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="img-wrapper">
+                            <img src="~/assets/image/dateplan3.jpg" alt="Guarantee">
+                        </div>
+                        <h3>VibeDate Guarantee</h3>
+                        <p>
+                            For $10 per month, we will be your dating guardian angel. We promise to go above and beyond to plan
+                            dates that suit you. Not happy? You can cancel at any time.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="location-section">
+            <div class="container">
+
+                <h2>Does VibeDate work everywhere?</h2>
+
+                <p class="focus-text">
+                    At present, VibeDate is focusing on <strong>Melbourne, Victoria.</strong>
+                </p>
+
+                <p class="info-text">
+                    We're currently growing VibeDate into Sydney and Brisbane. As we like to try everything in a place before we
+                    recommend it, that may take a little bit more time.
+                </p>
+
+                <p class="info-text">
+                    For recommendations in Sydney and Brisbane, please sign up for a <a asp-controller="Home" asp-action="Join">Free account</a>, and we'll let
+                    you know when we're ready to launch!
+                </p>
+
+                <div class="divider-line"></div>
+
+            </div>
+        </section>
+
+        <section class="member-waiting-section">
+            <div class="container">
+                <h2>So what are you waiting for?</h2>
+                <p>Become a <strong>VibeDate Member</strong> today!</p>
+            </div>
+        </section>
+
+        <section class="member-registration">
+            <div class="container">
+
+                <form class="reg-form">
+
+                    <div class="terms-text">Terms: $10 / month</div>
+
+                    <div class="form-group">
+                        <label for="fname">First Name:*</label>
+                        <input type="text" id="fname" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lname">Last Name:*</label>
+                        <input type="text" id="lname" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="loc">Location:*</label>
+                        <input type="text" id="loc" class="form-control" value="Melbourne" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date-type">Ideal Date Type:*</label>
+                        <select id="date-type" class="form-control">
+                            <option value="random">Random - no preference!</option>
+                            <option value="romantic">Romantic</option>
+                            <option value="adventure">Adventure</option>
+                            <option value="foodie">Foodie</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email-mem">Email:*</label>
+                        <input type="email" id="email-mem" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pass-mem">Password:*</label>
+                        <input type="password" id="pass-mem" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pass-conf-mem">Password Confirmation:*</label>
+                        <input type="password" id="pass-conf-mem" class="form-control" required>
+                    </div>
+
+                    <div class="password-strength-wrapper">
+                        <div class="strength-box">Password Strength</div>
+                        <span class="strength-text">Password must be "Medium" or stronger</span>
+                    </div>
+
+                    <div class="coupon-section">
+                        <a href="#" class="coupon-link">Have a coupon?</a>
+                    </div>
+
+                    <div class="payment-methods">
+
+                        <div class="payment-option">
+                            <div class="option-header">
+                                <input type="radio" name="payment_method" id="paypal" checked>
+                                <label for="paypal">
+                                    Paypal
+                                    <img src="~/assets/image/paypal.png" alt="PayPal" class="pay-icon">
+                                </label>
+                            </div>
+                            <div class="option-body">
+                                Pay via your PayPal account
+                            </div>
+                        </div>
+
+                        <div class="payment-option">
+                            <div class="option-header">
+                                <input type="radio" name="payment_method" id="credit-card">
+                                <label for="credit-card">
+                                    Credit Card
+                                    <div class="card-icons">
+                                        <img src="~/assets/image/cards.png" alt="Visa">
+
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button type="submit" class="btn-signup">Sign Up</button>
+
+                </form>
+            </div>
+        </section>
+        <section class="offerings-section">
+            <div class="container">
+
+                <h2>Interested in VibeDate's other offerings?</h2>
+
+                <div class="offerings-buttons">
+                    <a href="#" class="btn-offering">Free Member</a>
+                    <a href="#" class="btn-offering">Executive - COMING SOON!</a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <p class="site-footer__text">
+                Powered by the purring of 1,000 fluffy kittens - ABN 92 970 676 574
+            </p>
+            <div class="site-footer__actions">
+                <a href="https://www.facebook.com/vibedate" target="_blank" aria-label="Facebook" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/vibedate" target="_blank" aria-label="Twitter" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/vibedate" target="_blank" aria-label="Instagram" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Email" class="icon"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#top" class="to-top" aria-label="Back to top"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="~/assets/js/main.js"></script>
+</body>
+
+</html>

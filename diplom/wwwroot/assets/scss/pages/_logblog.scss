@@ -1,0 +1,38 @@
+.page-banner{
+    background-image: url("/assets/image/people-2568954_1920.jpg");
+}
+$color-primary: #be2e63; 
+$color-text: #555;
+$color-bg-light: #f9f9f9;
+$font-script: 'Great Vibes', cursive;
+$font-body: 'Lato', sans-serif;
+
+
+.page-banner {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.2); 
+    }
+
+    h1 {
+        position: relative;
+        z-index: 2;
+        font-family: $font-script;
+        font-size: 6rem;
+        color: white;
+        margin: 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+}

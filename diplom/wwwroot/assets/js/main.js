@@ -154,3 +154,33 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+document.addEventListener('DOMContentLoaded', function () {
+
+    const dropdownContainer = document.querySelector('.prism-controller');
+    const dropdownBtn = document.querySelector('.fusion-btn');
+
+    dropdownBtn.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        event.stopPropagation();
+
+        dropdownContainer.classList.toggle('active');
+    });
+
+    document.addEventListener('click', function (event) {
+        if (!dropdownContainer.contains(event.target)) {
+            dropdownContainer.classList.remove('active');
+        }
+    });
+
+});
+document.addEventListener("DOMContentLoaded", function () {
+    const header = document.querySelector(".orbital-shells");
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 50) {
+            header.classList.add("scrolled");
+        } else {
+            header.classList.remove("scrolled");
+        }
+    });
+});

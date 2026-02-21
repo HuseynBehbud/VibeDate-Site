@@ -1,0 +1,32 @@
+.page-banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url("/assets/image/seedprod.com-4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 1;
+    }
+
+    h1 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 6rem;
+        color: #ffffff;
+        font-weight: 400;
+        z-index: 2;
+        margin: 0;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+}

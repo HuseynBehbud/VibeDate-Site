@@ -1,0 +1,314 @@
+* {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  :root {
+      --primary-pink: #ff477e;
+      --dark-overlay: rgba(0, 0, 0, 0.6);
+      --text-main: #333;
+      --text-muted: #666;
+  }
+  .orbital-shells {
+    position: relative;
+        padding-top: 20px;
+        background: transparent;
+  }
+.orbital-shells {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    z-index: 1000;
+}
+.page-banner {
+    background-image: url('/assets/image/home_app_subheader.jpg');
+}
+
+$color-primary: #be2e63;
+$color-text: #555;
+$color-bg-light: #f9f9f9;
+$font-script: 'Great Vibes', cursive;
+$font-body: 'Lato', sans-serif;
+
+.hero-sections {
+width: 100%;
+    height: 40vh; 
+    min-height: 350px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+        url('../image/home_app_subheader.jpg');
+    background-size: cover;
+    background-position: center top;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: visible;
+    z-index: 20;
+    .flux-grid {
+        width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 0;
+            position: relative;
+            z-index: 30;
+        .logo {
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+
+            .logo-text {
+                color: #fff;
+                font-size: 1.5rem;
+                font-weight: bold;
+                font-family: 'Great Vibes', cursive; 
+            }
+
+            img {
+                width: 40px;
+            }
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            .nav__link {
+                color: #fff;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+        }
+    }
+
+}
+@media (max-width: 768px) {
+    .orbital-shells {
+        padding-top: 10px;
+    }
+}
+  .flux-grid {
+      position: relative;
+      z-index: 10;
+      width: 90%;
+      max-width: 1200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .quantum-badge {
+      width: 60px;
+      height: 60px;
+      background-color: #000;
+      border: 2px solid var(--primary-pink);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 32px;
+      font-weight: bold;
+      font-style: italic;
+      color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+  }
+
+  .warp-links {
+      display: flex;
+      gap: 25px;
+      align-items: center;
+  }
+
+  .warp-links a {
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 15px;
+      font-weight: 500;
+      transition: color 0.3s;
+  }
+
+  .warp-links a:hover {
+      color: var(--primary-pink);
+  }
+
+.prism-controller {
+    position: relative;
+    display: inline-block;
+    .dark-matter-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+
+        background-color: #333; 
+        min-width: 180px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        border-radius: 4px;
+        border-top: 2px solid #be2e63;
+        z-index: 1000;
+        margin-top: 10px;
+
+        a.event-horizon-link {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-size: 14px;
+            border-bottom: 1px solid #444;
+            transition: background 0.2s;
+
+            &:hover {
+                background-color: #444;
+                color: #be2e63;
+            }
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+
+    &:hover .dark-matter-menu {
+        display: block;
+    }
+}
+  .fusion-btn {
+      padding: 10px 20px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      background: transparent;
+      color: white;
+      border-radius: 4px 4px 0 0;
+      cursor: pointer;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.3s ease;
+  }
+
+  .fusion-btn::after {
+      content: "▼";
+      font-size: 10px;
+      margin-left: 5px;
+  }
+
+  .prism-controller:hover .fusion-btn {
+      background-color: #c2185b;
+      border-color: #c2185b;
+  }
+
+  .dark-matter-menu {
+      display: none;
+      position: absolute;
+      right: 0;
+      top: 100%;
+      background-color: #333;
+      min-width: 160px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+      z-index: 100;
+      border-top: 1px solid #c2185b;
+      :hover{
+        
+      }
+  }
+
+  .prism-controller {
+      position: relative;
+      display: inline-block;
+      .dark-matter-menu {
+          display: none;
+      }
+
+      &.active .dark-matter-menu {
+          display: block;
+      }
+  }
+
+  .dark-matter-menu a.event-horizon-link {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      font-size: 14px;
+      border-bottom: 1px solid #444;
+      transition: background 0.2s;
+  }
+
+  .dark-matter-menu a.event-horizon-link:last-child {
+      border-bottom: none;
+  }
+
+  .dark-matter-menu a.event-horizon-link:hover {
+      background-color: #444;
+  }
+  .terra-zone {
+      width: 100%;
+      background-color: #fff;
+      padding: 60px 20px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .core-readout {
+      width: 100%;
+      max-width: 800px;
+      color: var(--text-main);
+  }
+
+  .alpha-heading {
+      font-size: 28px;
+      font-weight: 300;
+      margin-bottom: 30px;
+      color: #444;
+  }
+
+  .signal-text {
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+  }
+
+  .pink-pulse {
+      color: var(--primary-pink);
+      text-decoration: underline;
+      font-weight: 500;
+      cursor: pointer;
+  }
+
+  .origin-signature {
+      margin-top: 40px;
+      font-size: 15px;
+      color: #222;
+      font-weight: 600;
+  }
+
+  .origin-sub {
+      font-weight: 400;
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-bottom: 20px;
+  }
+
+  .frequency-contact {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #9c2755;
+  }
+
+  .frequency-contact span {
+      color: #333;
+      font-weight: bold;
+  }
+  

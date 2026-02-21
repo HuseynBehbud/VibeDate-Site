@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell\\OneDrive\\Desktop\\diplom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\views\\home\\logdateplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\views\\home\\logdateplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\diplom\\diplom\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "diplom\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\diplom\\diplom\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "diplom\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-21T10:20:40.109Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogDatePlan.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\diplom\\diplom\\Views\\Home\\LogDatePlan.cshtml",
+              "RelativeDocumentMoniker": "diplom\\Views\\Home\\LogDatePlan.cshtml",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\diplom\\diplom\\Views\\Home\\LogDatePlan.cshtml",
+              "RelativeToolTip": "diplom\\Views\\Home\\LogDatePlan.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-21T11:18:33.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

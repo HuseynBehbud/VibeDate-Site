@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account - VibeDate</title>
+    <link rel="icon" type="image/png" href="~/assets/image/Apple-Touch-Icon.png">
+
+    <link rel="apple-touch-icon" href="~/assets/image/Apple-Touch-Icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Montserrat:wght@300;400&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/assets/css/main.css">
+</head>
+
+<body>
+    <header class="orbital-shells hero-sections">
+        <div class="flux-grid">
+            <div class="logo">
+                <a asp-controller="Home" asp-action="LogIndex">
+                    <img src="~/assets/image/Apple-Touch-Icon.png" alt="Logo Icon"
+                         class="logo-icon">
+                </a>
+                <a asp-controller="Home" asp-action="LogIndex"><span class="logo-text">VibeDate</span></a>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <nav class="nav">
+                <a asp-controller="Home" asp-action="LogIndex" class="nav__link ">Home</a>
+                <a asp-controller="Home" asp-action="LogAbout" class="nav__link">About</a>
+                <a asp-controller="Home" asp-action="LogBlog" class="nav__link">Blog</a>
+                <a asp-controller="Home" asp-action="DateIdeas" class="nav__link">Date Ideas</a>
+                <a asp-controller="Home" asp-action="PlanADate" class="nav__link">Plan A Date</a>
+
+                <div class="prism-controller">
+
+                    <button class="fusion-btn nav__link--active">My Account</button>
+
+                    <div class="dark-matter-menu">
+                        <a asp-controller="Home" asp-action="Settings" class="event-horizon-link">Settings</a>
+                        <a asp-controller="Home" asp-action="Index" class="event-horizon-link">Log Out</a>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="app-wrapper">
+            <div class="top-menu">
+                <a asp-controller="Home" asp-action="Settings" class="menu-link">Home</a>
+                <a asp-controller="Home" asp-action="Subscriptions" class="menu-link">Subscriptions</a>
+                <a asp-controller="Home" asp-action="Payments" class="menu-link">Payments</a>
+                <a asp-controller="Home" asp-action="Index" class="menu-link">Logout</a>
+            </div>
+
+            <div class="intro-section">
+                <h1 class="main-title">Welcome to VibeDate!</h1>
+                <p class="sub-text">
+                    Click the <em>Plan A Date</em> button in the menu above to start planning your next
+                    date!
+                </p>
+            </div>
+
+            <form class="user-entry-area">
+                <div class="input-block">
+                    <label class="field-label" for="fname">First Name:*</label>
+                    <input class="text-field" type="text" id="fname" value="huse">
+                </div>
+
+                <div class="input-block">
+                    <label class="field-label" for="lname">Last Name:*</label>
+                    <input class="text-field" type="text" id="lname" value="Hüseyn">
+                </div>
+
+                <div class="input-block">
+                    <label class="field-label" for="userEmail">Email:*</label>
+                    <input class="text-field" type="email" id="userEmail" value="huseynbehbudov1682@gmail.com">
+                </div>
+
+                <div class="input-block">
+                    <label class="field-label" for="userLoc">Location:*</label>
+                    <input class="text-field" type="text" id="userLoc" value="Melbourne">
+                </div>
+
+                <button type="submit" class="action-trigger">Save Profile</button>
+            </form>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <p class="site-footer__text">
+                Powered by the purring of 1,000 fluffy kittens - ABN 92 970 676 574
+            </p>
+            <div class="site-footer__actions">
+                <a href="https://www.facebook.com/vibedate" target="_blank" aria-label="Facebook" class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://x.com/vibedate" target="_blank" aria-label="Twitter" class="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/vibedate" target="_blank" aria-label="Instagram" class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" aria-label="Email" class="icon"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#top" class="to-top" aria-label="Back to top"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </div>
+
+    </footer>
+    <script src="~/assets/js/main.js"></script>
+</body>
+
+</html>

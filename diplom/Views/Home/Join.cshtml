@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Free-VibeDate</title>
+    <link rel="icon" type="image/png" href="~/assets/image/Apple-Touch-Icon.png">
+
+    <link rel="apple-touch-icon" href="~/assets/image/Apple-Touch-Icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Montserrat:wght@300;400&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/assets/css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="logo">
+                <a asp-controller="Home" asp-action="Index"><img src="~/assets/image/Apple-Touch-Icon.png" alt="Logo Icon" class="logo-icon"></a>
+                <a asp-controller="Home" asp-action="Index"><span class="logo-text">VibeDate</span></a>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav class="nav">
+                <a asp-controller="Home" asp-action="Index" class="nav__link ">Home</a>
+                <a asp-controller="Home" asp-action="About" class="nav__link">About</a>
+                <a asp-controller="Home" asp-action="Blog" class="nav__link">Blog</a>
+                <a asp-controller="Home" asp-action="Plan" class="nav__link nav__link--active">Get Planning</a>
+                <a asp-controller="Home" asp-action="Log" class="nav__link nav__link--outline">Log In</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="page-banner-join">
+            <div class="overlay"></div>
+            <h1>Join for Free!</h1>
+        </section>
+
+        <section class="free-membership">
+            <div class="container">
+
+                <h2 class="main-title">What is a 'FREE' membership?</h2>
+
+                <div class="features-grid">
+
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <div class="text-content">
+                            <h3>Forever free</h3>
+                            <p>
+                                We will never charge you for our mailing list, nor we will try and market ads to you. We value
+                                your trust in us.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="text-content">
+                            <h3>Weekly email update</h3>
+                            <p>
+                                A weekly email with cool things happening around town. Only the best for you to take on dates.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </div>
+                        <div class="text-content">
+                            <h3>Pre-planned dates</h3>
+                            <p>
+                                Choose from a range of date plans to experience, from proven providers who want to make your date
+                                memorable.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="waiting-section">
+            <div class="container">
+                <h2>So what are you waiting for?</h2>
+                <p>Sign up for your <strong>Free</strong> VibeDate account today!</p>
+            </div>
+        </section>
+        <section class="signup-form-section">
+            <div class="container">
+
+                <form class="signup-form">
+
+                    <div class="price-label">Price: Free</div>
+
+                    <div class="form-group">
+                        <label for="firstname">First Name:*</label>
+                        <input type="text" id="firstname" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastname">Last Name:*</label>
+                        <input type="text" id="lastname" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="location">Location:*</label>
+                        <input type="text" id="location" class="form-control" value="Melbourne" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:*</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password:*</label>
+                        <input type="password" id="password" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="confirm-password">Password Confirmation:*</label>
+                        <input type="password" id="confirm-password" class="form-control" required>
+                    </div>
+
+                    <div class="password-strength-wrapper">
+                        <div class="strength-box">Password Strength</div>
+                        <span class="strength-text">Password must be "Medium" or stronger</span>
+                    </div>
+
+                    <button type="submit" class="btn-signup"><a asp-controller="Home" asp-action="Welcome" class="btn-signup">Sign Up</a></button>
+
+
+
+                </form>
+
+            </div>
+        </section>
+        <section class="offerings-section">
+            <div class="container">
+
+                <h2>Interested in VibeDate's other offerings?</h2>
+
+                <div class="offerings-buttons">
+                    <a asp-controller="Home" asp-action="Pay" class="btn-offering">VibeDate Member</a>
+                    <a asp-controller="Home" asp-action="Join" class="btn-offering">Executive - COMING SOON!</a>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <p class="site-footer__text">
+                Powered by the purring of 1,000 fluffy kittens - ABN 92 970 676 574
+            </p>
+            <div class="site-footer__actions">
+                <a href="https://www.facebook.com/vibedate" target="_blank" aria-label="Facebook" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/vibedate" target="_blank" aria-label="Twitter" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/vibedate" target="_blank" aria-label="Instagram" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Email" class="icon"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#top" class="to-top" aria-label="Back to top"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="~/assets/js/main.js"></script>
+</body>
+
+</html>

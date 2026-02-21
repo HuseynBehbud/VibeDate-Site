@@ -1,0 +1,414 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Planning-VibeDate</title>
+    <link rel="icon" type="image/png" href="~/assets/image/Apple-Touch-Icon.png">
+
+    <link rel="apple-touch-icon" href="~/assets/image/Apple-Touch-Icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Montserrat:wght@300;400&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/assets/css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="logo">
+                <a asp-controller="Home" asp-action="Index"><img src="~/assets/image/Apple-Touch-Icon.png" alt="Logo Icon" class="logo-icon"></a>
+                <a asp-controller="Home" asp-action="Index"><span class="logo-text">VibeDate</span></a>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav class="nav">
+                <a asp-controller="Home" asp-action="Index" class="nav__link ">Home</a>
+                <a asp-controller="Home" asp-action="About" class="nav__link">About</a>
+                <a asp-controller="Home" asp-action="Blog" class="nav__link ">Blog</a>
+                <a asp-controller="Home" asp-action="Plan" class="nav__link nav__link--active">Get Planning</a>
+                <a asp-controller="Home" asp-action="Log" class="nav__link nav__link--outline">Log In</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="vibe-banner">
+            <div class="overlay"></div>
+            <h2>Get Your Vibe On</h2>
+        </section>
+
+        <section class="promise-section">
+            <div class="container">
+                <h2 class="section-title">The VibeDate promise ...</h2>
+                <div class="promise-grid">
+                    <div class="promise-item">
+                        <div class="icon-box">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="promise-text">
+                            <h3>Less planning, more dating</h3>
+                            <p>
+                                Trying to figure out what to do with your partner can be a pain. VibeDate solves that by
+                                curating ideas for you.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="promise-item">
+                        <div class="icon-box">
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="promise-text">
+                            <h3>We use our providers too!</h3>
+                            <p>
+                                We only recommend experiences we have tried and tested, so you know can trust that you're
+                                going to have an amazing date.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="promise-item">
+                        <div class="icon-box">
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div class="promise-text">
+                            <h3>Only genuine date ideas</h3>
+                            <p>
+                                No sneaky ads here. We genuinely want to share our experiences with you to make your dating
+                                life awesome.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing-section">
+            <div class="container">
+                <h2>Take a pick!</h2>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="card-icon">
+                            <img src="~/assets/image/join-01-free.png" alt="Free">
+                        </div>
+                        <h3>Free</h3>
+                        <div class="price-box">
+                            <span class="currency">$</span>
+                            <span class="amount">0</span>
+                        </div>
+                        <p class="description">
+                            Sign up to our free membership, and receive a weekly email with cool things
+                            happening in Melbourne.
+                        </p>
+                        <ul class="features-list">
+                            <li>Forever <strong>free</strong>.</li>
+                            <li>Weekly email with cool ideas.</li>
+                            <li>Pick from pre-prepared experiences.</li>
+                            <li>Booking fee for custom date plans.</li>
+                        </ul>
+                        <a asp-controller="Home" asp-action="Join" class="btn-price">Join Free</a>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="card-icon">
+                            <img src="~/assets/image/join-02-vibedater.png" alt="Member">
+                        </div>
+                        <h3>Member</h3>
+                        <div class="price-box">
+                            <span class="currency">$</span>
+                            <span class="amount">10</span>
+                            <span class="period">/ month</span>
+                        </div>
+                        <p class="description">
+                            A VibeDate Member has direct access to our date planners, so we can create
+                            your best experiences.
+                        </p>
+                        <ul class="features-list">
+                            <li><strong>$10 per month.</strong> Cancel anytime.</li>
+                            <li>Weekly customised email.</li>
+                            <li><strong>Live chat with our Date Planners!</strong></li>
+                            <li>No booking fee for any dates.</li>
+                        </ul>
+                        <a asp-controller="Home" asp-action="Pay" class="btn-price">Become a Member</a>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="card-icon">
+                            <img src="~/assets/image/join-03-exec.png" alt="Executive">
+                        </div>
+                        <h3>Executive</h3>
+                        <div class="price-box">
+                            <span class="currency">$</span>
+                            <span class="amount">100</span>
+                            <span class="period">/ month</span>
+                        </div>
+                        <p class="description">
+                            For the high-flyers. "Executive" is our on-call concierge service to make
+                            some magic happen in your life.
+                        </p>
+                        <ul class="features-list">
+                            <li><strong>$100 per month.</strong> Cancel anytime.</li>
+                            <li>Fully customised date plans and requests.</li>
+                            <li>On-call service, with your own number to call.</li>
+                            <li>Above and beyond service. Pull out all the stops.</li>
+                        </ul>
+                        <a href="#" class="btn-price">Coming soon!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="main-title">Still have questions?</h2>
+                <h3 class="sub-title">Tell me more!</h3>
+
+                <div class="faq-list">
+
+                    <div class="faq-item">
+                        <div class="faq-left">
+                            <span class="faq-number">1</span>
+                        </div>
+                        <div class="faq-right">
+                            <div class="faq-header">
+                                <div class="faq-question">"So I still don't understand what you guys do ..."</div>
+                                <div class="faq-icon"><i class="fas fa-plus"></i></div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>
+                                    Just think of VibeDate as your best friend, who can help you plan your dating life. A friend who
+                                    introduces you to cool new things.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-left">
+                            <span class="faq-number">2</span>
+                        </div>
+                        <div class="faq-right">
+                            <div class="faq-header">
+                                <div class="faq-question">"Can you help me find my soul mate?"</div>
+                                <div class="faq-icon"><i class="fas fa-plus"></i></div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>
+                                    No. There are enough dating apps that help you meet someone, so we're not able to help in that
+                                    department.
+                                </p>
+                                <p>We're here to make dating stress-free by tailoring any event you require.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-left">
+                            <span class="faq-number">3</span>
+                        </div>
+                        <div class="faq-right">
+                            <div class="faq-header">
+                                <div class="faq-question">"What about all the other sites that tell me about things to do?"</div>
+                                <div class="faq-icon"><i class="fas fa-plus"></i></div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>
+                                    The internet has created a "paradox of choice". VibeDate customises dates based on your preferences.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-left">
+                            <span class="faq-number">4</span>
+                        </div>
+                        <div class="faq-right">
+                            <div class="faq-header">
+                                <div class="faq-question">"Ok, so what makes you different?"</div>
+                                <div class="faq-icon"><i class="fas fa-plus"></i></div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We create custom, personalised recommendations without sneaky ads.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-left">
+                            <span class="faq-number">5</span>
+                        </div>
+                        <div class="faq-right">
+                            <div class="faq-header">
+                                <div class="faq-question">"And this works anywhere right?"</div>
+                                <div class="faq-icon"><i class="fas fa-plus"></i></div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>At the moment, we're focusing our efforts on Melbourne, Australia.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <h3 class="sub-title extra-margin">How it works</h3>
+
+                <div class="faq-list">
+
+                    <div class="faq-item">
+                        <div class="faq-left">
+                            <span class="faq-number">1</span>
+                        </div>
+                        <div class="faq-right">
+                            <div class="faq-header">
+                                <div class="faq-question">"How do memberships work?"</div>
+                                <div class="faq-icon"><i class="fas fa-plus"></i></div>
+                            </div>
+                            <div class="faq-answer">
+                                <div class="faq-answer-content">
+                                    <p>
+                                        It's simple! Choose a plan above, sign up, and start receiving your personalized date plans
+                                        directly to your inbox or via our concierge service.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-left">
+                            <span class="faq-number">2</span>
+                        </div>
+                        <div class="faq-right">
+                            <div class="faq-header">
+                                <div class="faq-question">"How much does it cost me?"</div>
+                                <div class="faq-icon"><i class="fas fa-plus"></i></div>
+                            </div>
+                            <div class="faq-answer">
+                                <div class="faq-answer-content">
+                                    <p>
+                                        We have a Free tier for casual browsers, a Member tier for $10/month with live chat support, and
+                                        an Executive tier for full concierge service.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-left">
+                            <span class="faq-number">3</span>
+                        </div>
+                        <div class="faq-right">
+                            <div class="faq-header">
+                                <div class="faq-question">
+                                    "I'm only in town for two days and want to plan something ... can you help?"
+                                </div>
+                                <div class="faq-icon"><i class="fas fa-plus"></i></div>
+                            </div>
+                            <div class="faq-answer">
+                                <div class="faq-answer-content">
+                                    <p>
+                                        Absolutely! Reach out to us via the "About" page or live chat, and we'll create a custom
+                                        itinerary for your short trip.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">And now, a word from some of our fans</h2>
+                <div class="slider-wrapper">
+                    <button class="nav-btn prev-btn" onclick="changeSlide(-1)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="slides-container">
+                        <div class="slide active">
+                            <div class="quote-box">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p>
+                                    I'd been planning my 2 year anniversary with my boyfriend for weeks... Maggie organised
+                                    everything for me. It was awesome, and we'll be using VibeDate again.
+                                </p>
+                            </div>
+                            <div class="dots">
+                                <span class="dot" style="color: #be2e63;"></span>
+                                <span class="dot" style="color: #be2e63;"></span>
+                                <span class="dot" style="color: #be2e63;"></span>
+                            </div>
+                            <div class="author-info">
+                                <strong>Alannah</strong>
+                                <span>2-year anniversary - VibeDate Member</span>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="quote-box">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p>
+                                    Thanks to Maggie and Tony for helping my boyfriend and I find new things to do...
+                                    VibeDate's ideas helped us heaps!
+                                </p>
+                            </div>
+                            <div class="dots">
+                                <span class="dot" style="color: #be2e63;"></span>
+                                <span class="dot" style="color: #be2e63;"></span>
+                                <span class="dot" style="color: #be2e63;"></span>
+                            </div>
+                            <div class="author-info">
+                                <strong>Jules</strong>
+                                <span>Long-term dater - VibeDate Member</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="nav-btn next-btn" onclick="changeSlide(1)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h2>Not ready to create an account?</h2>
+                <p>Sign up to our weekly newsletter for awesome date tips and ideas!</p>
+                <form class="newsletter-form">
+                    <input type="text" placeholder="First name" required>
+                    <input type="email" placeholder="Email address" required>
+                    <select class="location-select" required>
+                        <option value="" disabled selected>Location</option>
+                        <option value="melbourne">Melbourne</option>
+                        <option value="sydney">Sydney</option>
+                        <option value="brisbane">Brisbane</option>
+                        <option value="other">Other (Aus only)</option>
+                    </select>
+                    <button type="submit">Sign up</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <p class="site-footer__text">
+                Powered by the purring of 1,000 fluffy kittens - ABN 92 970 676 574
+            </p>
+            <div class="site-footer__actions">
+                <a href="https://www.facebook.com/vibedate" target="_blank" aria-label="Facebook" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/vibedate" target="_blank" aria-label="Twitter" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/vibedate" target="_blank" aria-label="Instagram" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Email" class="icon"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#top" class="to-top" aria-label="Back to top"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="~/assets/js/main.js"></script>
+</body>
+
+</html>

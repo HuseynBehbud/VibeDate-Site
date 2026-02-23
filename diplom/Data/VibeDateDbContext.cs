@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using diplom.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace diplom.Data
@@ -8,11 +9,8 @@ namespace diplom.Data
         public VibeDateDbContext(DbContextOptions options) : base(options)
         {
         }
+        public DbSet<Products> products { get; set; }
 
-        protected VibeDateDbContext()
-        {
-        }
 
-       
     }
 }

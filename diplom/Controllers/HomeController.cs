@@ -1,9 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using diplom.Data;
+using diplom.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace diplom.Controllers
 {
     public class HomeController : Controller
     {
+        private VibeDateDbContext _context { get; }
+        public HomeController(VibeDateDbContext context)
+        {
+            _context = context;
+
+        }
         public IActionResult Index()
         {
             return View();
@@ -18,7 +26,8 @@ namespace diplom.Controllers
         }
         public IActionResult DateIdeas()
         {
-            return View();
+            List<Products> products = _context.products.ToList();
+            return View(products);
         }
         public IActionResult DatePlan()
         {

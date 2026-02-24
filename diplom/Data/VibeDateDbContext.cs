@@ -10,7 +10,7 @@ namespace diplom.Data
         {
         }
         public DbSet<Products> products { get; set; }
-
+        public DbSet<Category> categories { get; set; }
 
     }
 }

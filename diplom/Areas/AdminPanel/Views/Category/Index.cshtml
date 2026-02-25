@@ -36,8 +36,8 @@
                                         @category.Name
                                     </td>
                                     <td>
-                                        <button type="button"  class="btn btn-warning"><i class="mdi mdi-border-color"></i></button>
-                                        <button type="button" class="btn btn-danger"><i class="mdi mdi-bookmark-remove"></i></button>
+                                        <a type="button"  class="btn btn-warning" asp-controller="Category" asp-action="Update" asp-route-id="@category.Id"><i class="mdi mdi-border-color"></i></a>
+                                        <a type="button" class="btn btn-danger" asp-controller="Category" asp-action="Delete" asp-route-id="@category.Id"><i class="mdi mdi-bookmark-remove"></i></a>
                                     </td>
                                     
                                 </tr>

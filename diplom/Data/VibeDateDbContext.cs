@@ -1,10 +1,11 @@
 ﻿using diplom.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace diplom.Data
 {
-    public class VibeDateDbContext : DbContext
+    public class VibeDateDbContext : IdentityDbContext<AppUser>
     {
         public VibeDateDbContext(DbContextOptions options) : base(options)
         {

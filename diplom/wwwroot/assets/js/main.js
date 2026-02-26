@@ -105,29 +105,29 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    const loginForm = document.querySelector('.login-form');
-    const usernameInput = document.getElementById('username');
-    const passwordInput = document.getElementById('password');
-    const errorBox = document.getElementById('error-box');
+//    const loginForm = document.querySelector('.login-form');
+//    const usernameInput = document.getElementById('username');
+//    const passwordInput = document.getElementById('password');
+//    const errorBox = document.getElementById('error-box');
 
-    if (loginForm) {
-        loginForm.addEventListener('submit', function (e) {
-            e.preventDefault(); 
+//    if (loginForm) {
+//        loginForm.addEventListener('submit', function (e) {
+//            e.preventDefault(); 
 
-            const userVal = usernameInput.value.trim();
-            const passVal = passwordInput.value.trim();
+//            const userVal = usernameInput.value.trim();
+//            const passVal = passwordInput.value.trim();
 
-            if (userVal === "" || passVal === "") {
-                errorBox.style.display = "block";
-                errorBox.innerHTML = "<strong>ERROR:</strong> Username must not be blank<br><strong>ERROR:</strong> Your username or password was incorrect";
-            } else {
-                errorBox.style.display = "none";
-                alert("Login successful! (Redirecting...)");
-            }
-        });
-    }
+//            if (userVal === "" || passVal === "") {
+//                errorBox.style.display = "block";
+//                errorBox.innerHTML = "<strong>ERROR:</strong> Username must not be blank<br><strong>ERROR:</strong> Your username or password was incorrect";
+//            } else {
+//                errorBox.style.display = "none";
+//                alert("Login successful! (Redirecting...)");
+//            }
+//        });
+//    }
 
-});
+//});
 document.addEventListener('DOMContentLoaded', function () {
     const lightboxModal = document.getElementById('image-lightbox');
     const lightboxImg = document.getElementById('lightbox-img');

@@ -16,6 +16,7 @@ namespace diplom
                 options.Password.RequireDigit = true;
                 options.Password.RequiredLength = 5;
                 options.Password.RequireNonAlphanumeric = false;
+                options.User.RequireUniqueEmail = true; 
                 options.Password.RequireUppercase = true;
                 options.Password.RequireLowercase = true;
                 options.Lockout.MaxFailedAccessAttempts=3;

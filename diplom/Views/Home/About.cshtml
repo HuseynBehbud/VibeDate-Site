@@ -38,7 +38,7 @@
 
                 <a asp-controller="Home" asp-action="Plan" class="nav__link">Get Planning</a>
 
-                <a asp-controller="Home" asp-action="Log" class="nav__link nav__link--outline">Log In</a>
+                <a asp-controller="Account" asp-action="Login" class="nav__link nav__link--outline">Log In</a>
             </nav>
         </div>
     </header>
@@ -142,7 +142,8 @@
                 <div class="ctac__content">
                     <h2>Get awesome date ideas and tips in your inbox</h2>
                     <p>Create your free account today</p>
-                 <a asp-controller="Home" asp-action="Join"> class="ctac__button">
+                <a asp-controller="Account" asp-action="Register">
+                    class="ctac__button">
                         <span class="ctac__icon">☆</span>
                         <span class="ctac__text">Join now</span>
                     </a>

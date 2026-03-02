@@ -41,14 +41,8 @@ namespace diplom.Controllers
         {
             return View();
         }
-        public IActionResult Join()
-        {
-            return View();
-        }
-        public IActionResult Log()
-        {
-            return View();
-        }
+       
+        
         public IActionResult LogAbout()
         {
             return View();

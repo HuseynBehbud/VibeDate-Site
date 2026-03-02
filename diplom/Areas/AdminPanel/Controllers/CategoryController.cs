@@ -1,10 +1,12 @@
 ﻿using diplom.Areas.AdminPanel.ViewModels;
 using diplom.Data;
 using diplom.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace diplom.Areas.AdminPanel.Controllers
 {
+    [Authorize(Roles = "Admin, SuperAdmin")]
     [Area("AdminPanel")]
     public class CategoryController : Controller
     {

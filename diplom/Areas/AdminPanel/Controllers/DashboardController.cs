@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace diplom.Areas.AdminPanel.Controllers
 {
     public class DashboardController : Controller
     {
+        [Authorize(Roles = "Admin, SuperAdmin")]
         [Area("AdminPanel")]
         public IActionResult Index()
         {

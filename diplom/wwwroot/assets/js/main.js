@@ -1,4 +1,4 @@
-let slideIndex = 1;
+﻿let slideIndex = 1;
 
 document.addEventListener('DOMContentLoaded', () => {
     if (document.getElementsByClassName("slide").length > 0) {
@@ -105,29 +105,29 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-//    const loginForm = document.querySelector('.login-form');
-//    const usernameInput = document.getElementById('username');
-//    const passwordInput = document.getElementById('password');
-//    const errorBox = document.getElementById('error-box');
+    const loginForm = document.querySelector('.login-form');
+    const usernameInput = document.getElementById('username');
+    const passwordInput = document.getElementById('password');
+    const errorBox = document.getElementById('error-box');
 
-//    if (loginForm) {
-//        loginForm.addEventListener('submit', function (e) {
-//            e.preventDefault(); 
+    if (loginForm) {
+        loginForm.addEventListener('submit', function (e) {
+            e.preventDefault(); 
 
-//            const userVal = usernameInput.value.trim();
-//            const passVal = passwordInput.value.trim();
+            const userVal = usernameInput.value.trim();
+            const passVal = passwordInput.value.trim();
 
-//            if (userVal === "" || passVal === "") {
-//                errorBox.style.display = "block";
-//                errorBox.innerHTML = "<strong>ERROR:</strong> Username must not be blank<br><strong>ERROR:</strong> Your username or password was incorrect";
-//            } else {
-//                errorBox.style.display = "none";
-//                alert("Login successful! (Redirecting...)");
-//            }
-//        });
-//    }
+            if (userVal === "" || passVal === "") {
+                errorBox.style.display = "block";
+                errorBox.innerHTML = "<strong>ERROR:</strong> Username must not be blank<br><strong>ERROR:</strong> Your username or password was incorrect";
+            } else {
+                errorBox.style.display = "none";
+                alert("Login successful! (Redirecting...)");
+            }
+        });
+    }
 
-//});
+});
 document.addEventListener('DOMContentLoaded', function () {
     const lightboxModal = document.getElementById('image-lightbox');
     const lightboxImg = document.getElementById('lightbox-img');
@@ -154,26 +154,23 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
-document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function () {
+        const dropdownContainer = document.querySelector('.prism-controller');
+        const dropdownBtn = document.querySelector('.fusion-btn');
 
-    const dropdownContainer = document.querySelector('.prism-controller');
-    const dropdownBtn = document.querySelector('.fusion-btn');
+        if (dropdownBtn && dropdownContainer) {
+            dropdownBtn.addEventListener('click', function (event) {
+                event.preventDefault();
+                dropdownContainer.classList.toggle('active');
+            });
 
-    dropdownBtn.addEventListener('click', function (event) {
-        event.preventDefault();
-
-        event.stopPropagation();
-
-        dropdownContainer.classList.toggle('active');
-    });
-
-    document.addEventListener('click', function (event) {
-        if (!dropdownContainer.contains(event.target)) {
-            dropdownContainer.classList.remove('active');
+            document.addEventListener('click', function (event) {
+                if (!dropdownContainer.contains(event.target)) {
+                    dropdownContainer.classList.remove('active');
+                }
+            });
         }
     });
-
-});
 document.addEventListener("DOMContentLoaded", function () {
     const header = document.querySelector(".orbital-shells");
     window.addEventListener("scroll", function () {

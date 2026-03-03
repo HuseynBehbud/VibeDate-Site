@@ -3422,12 +3422,15 @@ body {
   transition: all 0.4s ease;
   background-color: transparent;
 }
-.header.scrolled {
-  background-color: rgba(0, 0, 0, 0.8);
-  -webkit-backdrop-filter: blur(10px);
-  padding: 10px 0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
+    .header.scrolled {
+        background-color: rgba(0, 0, 0, 0.8);
+        -webkit-backdrop-filter: blur(10px);
+        padding: 10px 0;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        background-color: transparent !important;
+        backdrop-filter: none !important;
+        box-shadow: none !important;
+    }
 .header.scrolled .logo img {
   display: none;
 }
@@ -4682,3 +4685,6 @@ ul {
   }
   
 }
+/*.orbital-shells {
+    background-color: #333 !important;*/ /* Əgər bu rəng görünürsə, deməli JavaScript-də problem var */
+/*}*/

@@ -9,10 +9,12 @@ namespace diplom.Controllers
     {
         private UserManager<AppUser> _userManager { get; }
         private SignInManager<AppUser> _signInManager { get; }
-        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+        private RoleManager<IdentityRole> _roleManager { get; }
+        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _roleManager = roleManager;
         }
         public IActionResult Register()
         {
@@ -23,23 +25,32 @@ namespace diplom.Controllers
         public async Task<IActionResult> Register(RegisterViewModel user)
         {
             if (!ModelState.IsValid) return View(user);
+
             AppUser newUser = new AppUser
             {
-                FullName = user.FirstName,
-                UserName = user.LastName,
+                FullName = user.FirstName + " " + user.LastName,
+                UserName = user.Email, 
                 Email = user.Email,
             };
+
             var identityResult = await _userManager.CreateAsync(newUser, user.Password);
-            if (!identityResult.Succeeded)
+
+            if (identityResult.Succeeded)
             {
-                foreach (var err in identityResult.Errors)
+                if (await _roleManager.RoleExistsAsync("Member"))
                 {
-                    ModelState.AddModelError("", err.Description);
+                    await _userManager.AddToRoleAsync(newUser, "Member");
                 }
-                return View(user);
+
+                await _signInManager.SignInAsync(newUser, isPersistent: true);
+                return RedirectToAction("Welcome", "Home");
             }
-            await _signInManager.SignInAsync(newUser, true);
-            return RedirectToAction("Welcome", "Home");
+
+            foreach (var err in identityResult.Errors)
+            {
+                ModelState.AddModelError("", err.Description);
+            }
+            return View(user);
         }
         public async Task<IActionResult> Logout()
         {
@@ -62,7 +73,7 @@ namespace diplom.Controllers
                 return View(user);
             }
             var signInResult = await _signInManager.PasswordSignInAsync(existUser, user.Password, true, true);
-            if(signInResult.IsLockedOut)
+            if (signInResult.IsLockedOut)
             {
                 ModelState.AddModelError("", "Your account is blocked for 5 minutes");
                 return View(user);
@@ -74,5 +85,13 @@ namespace diplom.Controllers
             }
             return RedirectToAction("Welcome", "Home");
         }
+        //public async Task<IActionResult> CreateRoles()
+        //{
+        //    await _roleManager.CreateAsync(new IdentityRole("Member"));
+        //    await _roleManager.CreateAsync(new IdentityRole("Admin"));
+        //    await _roleManager.CreateAsync(new IdentityRole("SuperAdmin"));
+        //    return Content("Roles created");
+
+        //}
     }
 }

@@ -80,7 +80,6 @@ wwwroot\assets\adminpanel\vendors\mdi\fonts\materialdesignicons-webfont.eot
 wwwroot\assets\adminpanel\vendors\mdi\fonts\materialdesignicons-webfont.ttf
 wwwroot\assets\adminpanel\vendors\mdi\fonts\materialdesignicons-webfont.woff
 wwwroot\assets\adminpanel\vendors\mdi\fonts\materialdesignicons-webfont.woff2
-wwwroot\assets\css\main.css
 wwwroot\assets\image\afterthetears.jpg
 wwwroot\assets\image\Apple-Touch-Icon.png
 wwwroot\assets\image\banner-hawaii.jpg
@@ -151,3 +150,4 @@ wwwroot\assets\scss\pages\_plan.scss
 wwwroot\assets\scss\pages\_planadate.scss
 wwwroot\assets\scss\pages\_settings.scss
 wwwroot\assets\scss\pages\_welcome.scss
+wwwroot\assets\css\main.css

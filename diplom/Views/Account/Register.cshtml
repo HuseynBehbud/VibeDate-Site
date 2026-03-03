@@ -102,6 +102,7 @@
                 <div class="text-danger" asp-validation-summary="ModelOnly"></div>
 
                 <form class="signup-form" method="post" asp-action="Register" asp-controller="Account">
+                    <div asp-validation-summary="All" class="text-danger"></div>
 
                     <div class="price-label">Price: Free</div>
 
@@ -145,7 +146,7 @@
                         <span class="strength-text">Password must be "Medium" or stronger</span>
                     </div>
 
-                    <button type="submit" class="btn-signup "><a asp-controller="Home" asp-action="Welcome" class="btn-signup">Sign Up</a></button>
+                    <button type="submit" class="btn-signup">Sign Up</button>
                 </form>
                 @section Scripts {
                     <partial name="_ValidationScriptsPartial" />
@@ -160,7 +161,7 @@
 
                 <div class="offerings-buttons">
                     <a asp-controller="Home" asp-action="Pay" class="btn-offering">VibeDate Member</a>
-                    <a asp-controller="Home" asp-action="Join" class="btn-offering">Executive - COMING SOON!</a>
+                    <a asp-controller="Account" asp-action="Login" class="btn-offering">Executive - COMING SOON!</a>
                 </div>
 
             </div>

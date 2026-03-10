@@ -7,9 +7,6 @@ namespace diplom.Areas.AdminPanel.Controllers
     {
         [Authorize(Roles = "Admin, SuperAdmin")]
         [Area("AdminPanel")]
-        public IActionResult Index()
-        {
-            return View();
-        }
+        public IActionResult Index() => View();
     }
 }

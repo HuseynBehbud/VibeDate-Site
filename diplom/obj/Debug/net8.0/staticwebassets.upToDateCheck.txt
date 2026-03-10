@@ -151,3 +151,5 @@ wwwroot\assets\scss\pages\_plan.scss
 wwwroot\assets\scss\pages\_planadate.scss
 wwwroot\assets\scss\pages\_settings.scss
 wwwroot\assets\scss\pages\_welcome.scss
+wwwroot\templates\forgetpassword.html
+wwwroot\templates\notify.html

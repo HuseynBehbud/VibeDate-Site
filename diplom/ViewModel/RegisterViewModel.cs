@@ -14,5 +14,6 @@ namespace diplom.ViewModel
         public string Password { get; set; }
         [Required, DataType(DataType.Password),Compare(nameof(Password),ErrorMessage ="Password does not match")]
         public string ConfirmPassword { get; set; }
+        public string Location { get; set; }
     }
 }

@@ -1,18 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dell\\OneDrive\\Desktop\\diplom\\",
+  "WorkspaceRootPath": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\",
   "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\views\\home\\dateideas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\views\\home\\dateideas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\views\\home\\logpay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\views\\home\\logpay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\areas\\adminpanel\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\areas\\adminpanel\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\views\\home\\subscriptions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\views\\home\\subscriptions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
     {
       "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\views\\home\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\views\\home\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\views\\home\\planadate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\views\\home\\planadate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\views\\home\\logplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\views\\home\\logplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\views\\home\\logindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\views\\home\\logindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\views\\home\\logfirstdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\views\\home\\logfirstdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\views\\home\\logdateplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\views\\home\\logdateplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\views\\home\\logblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\views\\home\\logblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\views\\home\\logabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\views\\home\\logabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\migrations\\20260310154145_appuserlocationfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\migrations\\20260310154145_appuserlocationfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\dell\\onedrive\\desktop\\diplom\\diplom\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +82,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\diplom\\diplom\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "diplom\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\diplom\\diplom\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "diplom\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAqwFcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T16:49:34.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Settings.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\diplom\\diplom\\Views\\Home\\Settings.cshtml",
-              "RelativeDocumentMoniker": "diplom\\Views\\Home\\Settings.cshtml",
-              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\diplom\\diplom\\Views\\Home\\Settings.cshtml*",
-              "RelativeToolTip": "diplom\\Views\\Home\\Settings.cshtml*",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAQwE0AAABSAAAAAAAAAA==",
+              "Title": "DateIdeas.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\DateIdeas.cshtml",
+              "RelativeDocumentMoniker": "diplom\\Views\\Home\\DateIdeas.cshtml",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\DateIdeas.cshtml*",
+              "RelativeToolTip": "diplom\\Views\\Home\\DateIdeas.cshtml*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-03T16:46:51.692Z",
+              "WhenOpened": "2026-03-10T16:03:06.15Z",
               "EditorCaption": ""
             },
             {
@@ -56,16 +103,209 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Areas\\AdminPanel\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "diplom\\Areas\\AdminPanel\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Areas\\AdminPanel\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "diplom\\Areas\\AdminPanel\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T15:57:40.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Subscriptions.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\Subscriptions.cshtml",
+              "RelativeDocumentMoniker": "diplom\\Views\\Home\\Subscriptions.cshtml",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\Subscriptions.cshtml",
+              "RelativeToolTip": "diplom\\Views\\Home\\Subscriptions.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T15:55:48.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlanADate.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\PlanADate.cshtml",
+              "RelativeDocumentMoniker": "diplom\\Views\\Home\\PlanADate.cshtml",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\PlanADate.cshtml",
+              "RelativeToolTip": "diplom\\Views\\Home\\PlanADate.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T15:55:30.818Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\diplom\\diplom\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Program.cs",
               "RelativeDocumentMoniker": "diplom\\Program.cs",
-              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\diplom\\diplom\\Program.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Program.cs",
               "RelativeToolTip": "diplom\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAEAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T19:56:23.553Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LogPlan.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\LogPlan.cshtml",
+              "RelativeDocumentMoniker": "diplom\\Views\\Home\\LogPlan.cshtml",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\LogPlan.cshtml",
+              "RelativeToolTip": "diplom\\Views\\Home\\LogPlan.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T15:55:21.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogPay.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\LogPay.cshtml",
+              "RelativeDocumentMoniker": "diplom\\Views\\Home\\LogPay.cshtml",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\LogPay.cshtml",
+              "RelativeToolTip": "diplom\\Views\\Home\\LogPay.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T15:55:17.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LogIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\LogIndex.cshtml",
+              "RelativeDocumentMoniker": "diplom\\Views\\Home\\LogIndex.cshtml",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\LogIndex.cshtml",
+              "RelativeToolTip": "diplom\\Views\\Home\\LogIndex.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T15:55:11.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LogFirstDate.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\LogFirstDate.cshtml",
+              "RelativeDocumentMoniker": "diplom\\Views\\Home\\LogFirstDate.cshtml",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\LogFirstDate.cshtml",
+              "RelativeToolTip": "diplom\\Views\\Home\\LogFirstDate.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T15:55:06.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LogDatePlan.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\LogDatePlan.cshtml",
+              "RelativeDocumentMoniker": "diplom\\Views\\Home\\LogDatePlan.cshtml",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\LogDatePlan.cshtml",
+              "RelativeToolTip": "diplom\\Views\\Home\\LogDatePlan.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T15:55:01.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Settings.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\Settings.cshtml",
+              "RelativeDocumentMoniker": "diplom\\Views\\Home\\Settings.cshtml",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\Settings.cshtml",
+              "RelativeToolTip": "diplom\\Views\\Home\\Settings.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwCwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T16:46:51.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LogBlog.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\LogBlog.cshtml",
+              "RelativeDocumentMoniker": "diplom\\Views\\Home\\LogBlog.cshtml",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\LogBlog.cshtml",
+              "RelativeToolTip": "diplom\\Views\\Home\\LogBlog.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T15:54:52.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LogAbout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\LogAbout.cshtml",
+              "RelativeDocumentMoniker": "diplom\\Views\\Home\\LogAbout.cshtml",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Views\\Home\\LogAbout.cshtml",
+              "RelativeToolTip": "diplom\\Views\\Home\\LogAbout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T15:54:36.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260310154145_AppUserLocationField.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Migrations\\20260310154145_AppUserLocationField.cs",
+              "RelativeDocumentMoniker": "diplom\\Migrations\\20260310154145_AppUserLocationField.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Migrations\\20260310154145_AppUserLocationField.cs",
+              "RelativeToolTip": "diplom\\Migrations\\20260310154145_AppUserLocationField.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T15:41:45.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "diplom\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "diplom\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAiwH4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T15:39:43.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "diplom\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Models\\AppUser.cs",
+              "RelativeToolTip": "diplom\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T15:38:26.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "diplom\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\ServiceRegistration.cs",
+              "RelativeToolTip": "diplom\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T15:30:22.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "diplom\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dell\\OneDrive\\Desktop\\Diplom\\diplom\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "diplom\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAqwFcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T16:49:34.556Z"
             }
           ]
         }

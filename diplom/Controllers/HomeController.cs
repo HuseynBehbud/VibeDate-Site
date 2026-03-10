@@ -87,10 +87,6 @@ namespace diplom.Controllers
         {
             return View();
         }
-        public IActionResult Settings()
-        {
-            return View();
-        }
         public IActionResult Subscriptions()
         {
             return View();

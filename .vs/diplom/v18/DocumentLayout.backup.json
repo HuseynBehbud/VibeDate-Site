@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\quliy\\Downloads\\Diplom-main\\Diplom-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\quliy\\downloads\\diplom-main\\diplom-main\\diplom\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\quliy\\downloads\\diplom-main\\diplom-main\\diplom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\quliy\\downloads\\diplom-main\\diplom-main\\diplom\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|c:\\users\\quliy\\downloads\\diplom-main\\diplom-main\\diplom\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3129D9DC-5B86-4945-BCA5-4347CA95333F}|diplom\\diplom.csproj|solutionrelative:diplom\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\quliy\\Downloads\\Diplom-main\\Diplom-main\\diplom\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "diplom\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\quliy\\Downloads\\Diplom-main\\Diplom-main\\diplom\\ServiceRegistration.cs*",
+              "RelativeToolTip": "diplom\\ServiceRegistration.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T10:42:38.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\quliy\\Downloads\\Diplom-main\\Diplom-main\\diplom\\Program.cs",
+              "RelativeDocumentMoniker": "diplom\\Program.cs",
+              "ToolTip": "C:\\Users\\quliy\\Downloads\\Diplom-main\\Diplom-main\\diplom\\Program.cs*",
+              "RelativeToolTip": "diplom\\Program.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T23:00:16.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\quliy\\Downloads\\Diplom-main\\Diplom-main\\diplom\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "diplom\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\quliy\\Downloads\\Diplom-main\\Diplom-main\\diplom\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "diplom\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-09T22:41:59.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\quliy\\Downloads\\Diplom-main\\Diplom-main\\diplom\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "diplom\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\quliy\\Downloads\\Diplom-main\\Diplom-main\\diplom\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "diplom\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAswE8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T22:24:35.666Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

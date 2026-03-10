@@ -120,7 +120,7 @@
 
                     <div class="form-group">
                         <label for="location">Location:*</label>
-                        <input type="text" id="location" class="form-control" value="Melbourne" required>
+                        <input class="form-control" asp-for="Location">
                     </div>
 
                     <div class="form-group">
@@ -148,9 +148,6 @@
 
                     <button type="submit" class="btn-signup">Sign Up</button>
                 </form>
-                @section Scripts {
-                    <partial name="_ValidationScriptsPartial" />
-                }
 
             </div>
         </section>
@@ -184,6 +181,9 @@
         </div>
     </footer>
     <script src="~/assets/js/main.js"></script>
+    @section scripts{
+        @Html.Partial("_ValidationPartial")
+    }
 </body>
 
 </html>

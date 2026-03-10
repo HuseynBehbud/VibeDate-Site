@@ -6,5 +6,6 @@ namespace diplom.Models
     {
         public string FullName { get; set; }
         public bool isActivity { get; set; }
+        public string? Location { get; set; }
     }
 }
